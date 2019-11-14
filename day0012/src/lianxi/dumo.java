@@ -1,6 +1,8 @@
 package lianxi;
 
 import java.io.File;
+import java.sql.SQLOutput;
+
 //递归练习
 public class dumo {
     public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class dumo {
             return 1;
         }
         return n + method(n - 1);
+        System.out.println("提交之后");
     }
 
     public static void method1(File file) {
@@ -30,4 +33,5 @@ public class dumo {
             }
         }
     }
+
 }
